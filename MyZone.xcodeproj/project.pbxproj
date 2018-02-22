@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AE0295FA2031B301006628E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0295F92031B301006628E0 /* AppDelegate.swift */; };
-		AE0295FC2031B301006628E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0295FB2031B301006628E0 /* ViewController.swift */; };
+		AE0295FC2031B301006628E0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0295FB2031B301006628E0 /* LogInViewController.swift */; };
 		AE0295FF2031B301006628E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0295FD2031B301006628E0 /* Main.storyboard */; };
 		AE0296012031B301006628E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0296002031B301006628E0 /* Assets.xcassets */; };
 		AE0296042031B301006628E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0296022031B301006628E0 /* LaunchScreen.storyboard */; };
 		AE02960F2031B301006628E0 /* MyZoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02960E2031B301006628E0 /* MyZoneTests.swift */; };
 		AE02961A2031B301006628E0 /* MyZoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0296192031B301006628E0 /* MyZoneUITests.swift */; };
+		AE0296282031C31A006628E0 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0296272031C31A006628E0 /* HoshiTextField.swift */; };
+		AE02962A2031C325006628E0 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0296292031C324006628E0 /* TextFieldEffects.swift */; };
+		AE99D5C4203E89D000370F50 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE99D5C3203E89D000370F50 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		AE0295F62031B301006628E0 /* MyZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0295F92031B301006628E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE0295FB2031B301006628E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE0295FB2031B301006628E0 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		AE0295FE2031B301006628E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE0296002031B301006628E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE0296032031B301006628E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		AE0296152031B301006628E0 /* MyZoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyZoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0296192031B301006628E0 /* MyZoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyZoneUITests.swift; sourceTree = "<group>"; };
 		AE02961B2031B301006628E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0296272031C31A006628E0 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		AE0296292031C324006628E0 /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		AE99D5C3203E89D000370F50 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		AE0295F82031B301006628E0 /* MyZone */ = {
 			isa = PBXGroup;
 			children = (
+				AE0296272031C31A006628E0 /* HoshiTextField.swift */,
+				AE0296292031C324006628E0 /* TextFieldEffects.swift */,
 				AE0295F92031B301006628E0 /* AppDelegate.swift */,
-				AE0295FB2031B301006628E0 /* ViewController.swift */,
+				AE0295FB2031B301006628E0 /* LogInViewController.swift */,
+				AE99D5C3203E89D000370F50 /* InfoViewController.swift */,
 				AE0295FD2031B301006628E0 /* Main.storyboard */,
 				AE0296002031B301006628E0 /* Assets.xcassets */,
 				AE0296022031B301006628E0 /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE0295FC2031B301006628E0 /* ViewController.swift in Sources */,
+				AE0296282031C31A006628E0 /* HoshiTextField.swift in Sources */,
+				AE0295FC2031B301006628E0 /* LogInViewController.swift in Sources */,
+				AE02962A2031C325006628E0 /* TextFieldEffects.swift in Sources */,
 				AE0295FA2031B301006628E0 /* AppDelegate.swift in Sources */,
+				AE99D5C4203E89D000370F50 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +442,7 @@
 				DEVELOPMENT_TEAM = 7298V33AA6;
 				INFOPLIST_FILE = MyZone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = iDev.MyZone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HeroEyez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,7 +457,7 @@
 				DEVELOPMENT_TEAM = 7298V33AA6;
 				INFOPLIST_FILE = MyZone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = iDev.MyZone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HeroEyez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
