@@ -4,7 +4,7 @@
 //
 //  Created by NILESH_iOS on 12/02/18.
 //  Copyright © 2018 iDev. All rights reserved.
-//
+// https://github.com/yogeshpatelios/Swift-4-Xcode-9---How-To-Display-GIF-in-UIImage-with-One-Line-Of-Code-in-iOS-Latest-2017-Hindi./blob/master/UIImage%2BGif.swift
 
 import UIKit
 
